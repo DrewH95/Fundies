@@ -1,3 +1,6 @@
+
+
+
 class BankAccount:
 
 
@@ -5,7 +8,6 @@ class BankAccount:
         self.name = name
         self.int_rate = int_rate
         self.balance = balance
-
 
     def deposit(self, amount):
         self.balance += amount
